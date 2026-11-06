@@ -26,7 +26,7 @@ h3{font-size:19px!important;font-weight:750!important}
 .ms-license a{color:#a77e41}
 [data-testid="stSidebar"]{background:#0c304b!important}
 [data-testid="stSidebar"] [data-testid="stVerticalBlock"]{gap:.75rem}
-[data-testid="stSidebar"] *{color:#eef4f9}
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"],[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p{color:#eef4f9}
 [data-testid="stSidebar"] h2,[data-testid="stSidebar"] h3{color:#fff!important}
 [data-testid="stSidebar"] label p{color:#e2edf5!important}
 [data-testid="stSidebar"] [data-testid="stSlider"] [data-baseweb="slider"]{accent-color:var(--ms-gold)}
@@ -49,3 +49,8 @@ button[kind="primary"],[data-testid="stBaseButton-primary"]{background:var(--ms-
 [data-testid="stAlert"]{border-radius:13px!important}
 [data-testid="stHorizontalBlock"]{gap:.9rem}
 @media(max-width:760px){.block-container{padding:1rem!important}.ms-banner{padding:18px;align-items:flex-start;flex-direction:column}.ms-logo-panel{max-width:180px;min-height:32px;padding:0}.ms-logo-panel img{max-width:180px}.ms-banner h1{font-size:23px!important}.ms-subhead span{display:none}}
+
+/* Preserve input contrast inside the dark settings sidebar */
+[data-testid="stSidebar"] input,[data-testid="stSidebar"] textarea,[data-testid="stSidebar"] [role="radiogroup"] *{color:#132f47!important}
+[data-testid="stSidebar"] [role="radiogroup"] label p{color:#eef4f9!important}
+[data-testid="stSidebar"] [data-testid="stCheckbox"] label p{color:#eef4f9!important}
