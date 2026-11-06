@@ -54,3 +54,13 @@ button[kind="primary"],[data-testid="stBaseButton-primary"]{background:var(--ms-
 [data-testid="stSidebar"] input,[data-testid="stSidebar"] textarea,[data-testid="stSidebar"] [role="radiogroup"] *{color:#132f47!important}
 [data-testid="stSidebar"] [role="radiogroup"] label p{color:#eef4f9!important}
 [data-testid="stSidebar"] [data-testid="stCheckbox"] label p{color:#eef4f9!important}
+
+/* Self-contained Maghreb Steel-inspired wordmark: no third-party image dependency. */
+.ms-logo-wordmark{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;min-width:215px;min-height:76px}
+.ms-logo-name{font-weight:900;font-size:22px;letter-spacing:.03em;white-space:nowrap;color:#0a2946}
+.ms-logo-name strong{font-weight:900;color:#0a2946}
+.ms-logo-mark{position:relative;display:block;width:66px;height:28px}
+.ms-logo-mark i,.ms-logo-mark b{display:block;position:absolute;width:47px;height:15px;transform:skew(-27deg) rotate(-20deg);border-radius:0 0 65% 0}
+.ms-logo-mark i{background:#e9a03b;left:5px;top:0}
+.ms-logo-mark b{background:#dc4349;left:23px;top:12px}
+@media(max-width:760px){.ms-logo-wordmark{min-width:150px;min-height:55px}.ms-logo-name{font-size:17px}}
