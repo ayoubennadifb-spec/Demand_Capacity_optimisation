@@ -32,7 +32,7 @@ from src.solve import run
 from src.validation import validate
 
 
-st.set_page_config(page_title="Maghreb Steel | Production Planning Studio",
+st.set_page_config(page_title="Maghreb Steel | Production Planning Optimisation",
                    page_icon="🏭", layout="wide", initial_sidebar_state="collapsed")
 theme_path = ROOT / "app" / "maghreb_steel_theme.css"
 if theme_path.is_file():
@@ -82,12 +82,12 @@ st.markdown(
     <section class="ms-banner">
       <div class="ms-banner-copy">
         <div class="ms-eyebrow">OPERATIONS RESEARCH / INDUSTRIAL DECISION INTELLIGENCE</div>
-        <h1>Production <em>Planning Studio</em></h1>
+        <h1>Production Planning <em>Optimisation</em></h1>
         <p>Optimisation commandes × capacité · Usine de Tit Mellil · Horizon de 4 semaines</p>
         <span class="ms-banner-tag">◆ &nbsp; Maghreb Steel case study · EMINES / UM6P</span>
       </div>
       <div class="ms-logo-panel">
-        <img alt="Maghreb Steel — logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Logo_-_Maghreb_Steel_%281%29.jpg/640px-Logo_-_Maghreb_Steel_%281%29.jpg" />
+        <img alt="Maghreb Steel — logo" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo_-_Maghreb_Steel_%281%29.jpg?width=640" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" /><span class="ms-logo-fallback" style="display:none;align-items:center;font-weight:900;font-size:26px;letter-spacing:.035em;color:#092a46;">MAGHREB <span style="color:#e9a03b;margin-left:7px;">STEEL</span></span>
       </div>
     </section>
     """,
