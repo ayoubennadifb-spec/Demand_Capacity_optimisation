@@ -129,6 +129,10 @@ with st.sidebar:
 # --------------------------------------------------------------------------
 workspace_tabs = st.tabs(["▦  Vue d’ensemble", "☷  Carnet de commandes", "▤  Analyses détaillées"])
 
+with workspace_tabs[0]:
+    st.caption("Modifiez les options dans le panneau latéral ou le carnet de commandes, puis relancez le solveur.")
+    lancer = st.button("▶  Recalculer le plan optimal", key="dashboard_run", type="primary") or lancer
+
 with workspace_tabs[1]:
     st.subheader("📋 Carnet de commandes (éditable)")
     st.caption("Modifiez les tonnages, prix, semaines… ajoutez ou supprimez des lignes, "
