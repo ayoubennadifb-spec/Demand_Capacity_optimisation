@@ -1,9 +1,9 @@
 # Thème de l'application (assorti au rapport : bleu marine + accent doré).
 [theme]
-primaryColor = "#C9943E"
-backgroundColor = "#FFFFFF"
-secondaryBackgroundColor = "#F2F4F7"
-textColor = "#14304A"
+primaryColor = "#D9434A"
+backgroundColor = "#F5F8FB"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#082B47"
 font = "sans serif"
 
 [server]
