@@ -32,7 +32,7 @@ from src.solve import run
 from src.validation import validate
 
 
-st.set_page_config(page_title="Maghreb Steel | Production Planning Studio",
+st.set_page_config(page_title="Maghreb Steel | Production Planning Optimisation",
                    page_icon="🏭", layout="wide", initial_sidebar_state="collapsed")
 theme_path = ROOT / "app" / "maghreb_steel_theme.css"
 if theme_path.is_file():
@@ -82,7 +82,7 @@ st.markdown(
     <section class="ms-banner">
       <div class="ms-banner-copy">
         <div class="ms-eyebrow">OPERATIONS RESEARCH / INDUSTRIAL DECISION INTELLIGENCE</div>
-        <h1>Production <em>Planning Studio</em></h1>
+        <h1>Production Planning <em>Optimisation</em></h1>
         <p>Optimisation commandes × capacité · Usine de Tit Mellil · Horizon de 4 semaines</p>
         <span class="ms-banner-tag">◆ &nbsp; Maghreb Steel case study · EMINES / UM6P</span>
       </div>
