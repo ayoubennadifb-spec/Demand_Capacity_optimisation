@@ -87,7 +87,10 @@ st.markdown(
         <span class="ms-banner-tag">◆ &nbsp; Maghreb Steel case study · EMINES / UM6P</span>
       </div>
       <div class="ms-logo-panel">
-        <img alt="Maghreb Steel — logo" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo_-_Maghreb_Steel_%281%29.jpg?width=640" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" /><span class="ms-logo-fallback" style="display:none;align-items:center;font-weight:900;font-size:26px;letter-spacing:.035em;color:#092a46;">MAGHREB <span style="color:#e9a03b;margin-left:7px;">STEEL</span></span>
+        <div class="ms-logo-wordmark" role="img" aria-label="Maghreb Steel">
+          <span class="ms-logo-mark"><i></i><b></b></span>
+          <span class="ms-logo-name">MAGHREB <strong>STEEL</strong></span>
+        </div>
       </div>
     </section>
     """,
