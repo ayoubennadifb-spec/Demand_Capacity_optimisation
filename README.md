@@ -1,5 +1,7 @@
 # Simulateur Capacité–Commande — Maghreb Steel (site de Tit Mellil)
 
+**Live Demo:** https://maghreb-steel-planning-studio-preview.onrender.com
+
 Projet de Recherche Opérationnelle — **EMINES – UM6P**, promotion 2028.
 Cas d'application réel proposé par **Maghreb Steel** (laminage à froid, Tit Mellil).
 
